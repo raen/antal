@@ -1,0 +1,14 @@
+﻿/.idea
+/Antal.Functions/bin
+/Antal.Functions/obj
+/Antal.Core/bin
+/Antal.Core/obj
+/Antal.Infrastructure/bin
+/Antal.Infrastructure/obj
+/Antal.UnitTests/bin
+/Antal.UnitTests/obj
+/Antal.IntegrationTests/bin
+/Antal.IntegrationTests/obj
+/Antal.ConsoleApp/bin
+/Antal.ConsoleApp/obj
+/Antal.ConsoleApp/jokes.db

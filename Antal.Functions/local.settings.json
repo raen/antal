@@ -1,0 +1,16 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "JokeFetcherTimerSchedule": "0 */15 * * * *",
+        "JokeFetcher:Count": 10,
+        "JokeFetcher:MaxParallelism": 10,
+        "SqliteConnectionString": "Data Source=jokes.db",
+        "JokeApi:BaseAddress": "https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com",
+        "JokeApi:ApiKey": "YOUR_API_KEY_HERE"
+    },
+    "ConnectionStrings": {
+        "SqliteConnectionString": "Data Source=jokes.db"
+    }
+}

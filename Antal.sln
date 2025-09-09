@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antal.Core", "Antal.Core\Antal.Core.csproj", "{834BAC0A-472C-493F-B3A9-520A4D518E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antal.Infrastructure", "Antal.Infrastructure\Antal.Infrastructure.csproj", "{16EAF86A-527B-48EB-973E-89C5F2D11A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antal.UnitTests", "Antal.UnitTests\Antal.UnitTests.csproj", "{7D5F0BFA-B41E-40EA-947E-3A551F6DF0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antal.IntegrationTests", "Antal.IntegrationTests\Antal.IntegrationTests.csproj", "{DC9A2A31-5BFD-4C55-9BB9-BDF09AFBE377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antal.Functions", "Antal.Functions\Antal.Functions.csproj", "{F6F87111-A022-4052-8F62-9110DA4BD2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antal.ConsoleApp", "Antal.ConsoleApp\Antal.ConsoleApp.csproj", "{FA127C35-5E2C-4A5A-9347-2E3115A0D63F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834BAC0A-472C-493F-B3A9-520A4D518E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834BAC0A-472C-493F-B3A9-520A4D518E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834BAC0A-472C-493F-B3A9-520A4D518E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834BAC0A-472C-493F-B3A9-520A4D518E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EAF86A-527B-48EB-973E-89C5F2D11A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EAF86A-527B-48EB-973E-89C5F2D11A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EAF86A-527B-48EB-973E-89C5F2D11A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EAF86A-527B-48EB-973E-89C5F2D11A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5F0BFA-B41E-40EA-947E-3A551F6DF0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5F0BFA-B41E-40EA-947E-3A551F6DF0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5F0BFA-B41E-40EA-947E-3A551F6DF0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5F0BFA-B41E-40EA-947E-3A551F6DF0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9A2A31-5BFD-4C55-9BB9-BDF09AFBE377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9A2A31-5BFD-4C55-9BB9-BDF09AFBE377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9A2A31-5BFD-4C55-9BB9-BDF09AFBE377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9A2A31-5BFD-4C55-9BB9-BDF09AFBE377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F87111-A022-4052-8F62-9110DA4BD2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F87111-A022-4052-8F62-9110DA4BD2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F87111-A022-4052-8F62-9110DA4BD2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F87111-A022-4052-8F62-9110DA4BD2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA127C35-5E2C-4A5A-9347-2E3115A0D63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA127C35-5E2C-4A5A-9347-2E3115A0D63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA127C35-5E2C-4A5A-9347-2E3115A0D63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA127C35-5E2C-4A5A-9347-2E3115A0D63F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
