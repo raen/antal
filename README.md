@@ -8,12 +8,12 @@ This solution fetches jokes from an external API and stores them in SQLite. It d
 - Provider is swappable via the `IJokeApi` abstraction.
 
 ## Solution Structure
-- `src/Antal.Core` — Domain (`Joke`) and Application (`IJokeFetcher`, `JokeFetcher`, contracts, DI)
-- `src/Antal.Infrastructure` — SQLite repository (Dapper), HttpClient-based jokes API, DI, Polly policies
-- `src/Antal.Functions` — Azure Functions (timer-trigger) host and configuration
-- `src/Antal.ConsoleApp` — Simple console runner to fetch and print jokes
-- `src/Antal.UnitTests` — Unit tests (domain and application)
-- `src/Antal.IntegrationTests` — Integration tests (SQLite repo and upstream API)
+- `Antal.Core` — Domain (`Joke`) and Application (`IJokeFetcher`, `JokeFetcher`, contracts, DI)
+- `Antal.Infrastructure` — SQLite repository (Dapper), HttpClient-based jokes API, DI, Polly policies
+- `Antal.Functions` — Azure Functions (timer-trigger) host and configuration
+- `Antal.ConsoleApp` — Simple console runner to fetch and print jokes
+- `Antal.UnitTests` — Unit tests (domain and application)
+- `Antal.IntegrationTests` — Integration tests (SQLite repo and upstream API)
 
 ## Prerequisites
 - .NET SDK 8.0+
@@ -21,7 +21,7 @@ This solution fetches jokes from an external API and stores them in SQLite. It d
 - Optional: RapidAPI key (only for the external-API integration test)
 
 ## Configuration
-- Azure Functions local settings: `src/Antal.Functions/local.settings.json`
+- Azure Functions local settings: `Antal.Functions/local.settings.json`
   - `Values:JokeFetcherTimerSchedule` — CRON schedule for the timer trigger (default: every 15 minutes)
   - `Values:JokeFetcher:Count` — number of jokes to fetch per run
   - `Values:JokeFetcher:MaxParallelism` — parallel requests to the provider
@@ -38,7 +38,7 @@ From repository root (this folder):
 
 ```powershell
 # Windows PowerShell
- dotnet run --project src/Antal.ConsoleApp
+ dotnet run --project Antal.ConsoleApp
 ```
 
 This will:
@@ -49,12 +49,12 @@ This will:
 ### 2) Azure Functions (Timer Trigger)
 Option A — .NET run:
 ```powershell
- dotnet run --project src/Antal.Functions
+ dotnet run --project Antal.Functions
 ```
 
 Option B — Functions Core Tools:
 ```powershell
-# In directory: src/Antal.Functions
+# In directory: Antal.Functions
  func start
 ```
 
@@ -63,7 +63,7 @@ Adjust `JokeFetcherTimerSchedule` in `local.settings.json` for quicker local tes
 ## Tests
 Run all tests:
 ```powershell
- dotnet test src/Antal.sln
+ dotnet test Antal.sln
 ```
 
 - Upstream API integration test requires `RAPIDAPI_KEY`.
